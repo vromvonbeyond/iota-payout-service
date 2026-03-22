@@ -42,5 +42,4 @@ return res.status(500).json({ error: 'Server error', detail: String(err && err.m
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => console.log('Payout service listening on', port));
---- Ende ---
 
